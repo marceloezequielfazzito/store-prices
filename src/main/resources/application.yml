@@ -1,0 +1,22 @@
+logging:
+  level:
+    org.springframework: ERROR
+    com.store: INFO
+
+spring:
+  profiles:
+    active: prod
+  main:
+    banner-mode: console
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+
+server:
+  port: 8080
+  error:
+    include-message: always
+  servlet:
+    context-path: /
