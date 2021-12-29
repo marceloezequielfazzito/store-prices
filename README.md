@@ -75,4 +75,4 @@ docker build -t [image-name]  .
 docker run -d -p 8080:8080 [image-name]
  
 ```
-docker will expose port 8080 in the local machine  
+docker will expose the port 8080 in the local machine  
